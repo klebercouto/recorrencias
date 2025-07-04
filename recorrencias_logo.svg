@@ -1,0 +1,41 @@
+<svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Definições das setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb" />
+    </marker>
+  </defs>
+  
+  <!-- Ícone minimalista - Símbolo de recorrência -->
+  <g transform="translate(15, 15)">
+    <!-- Setas circulares minimalistas -->
+    <path d="M 35 10 A 12 12 0 0 1 35 30" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowhead)"/>
+    <path d="M 15 30 A 12 12 0 0 1 15 10" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowhead)"/>
+    
+    <!-- Símbolo R$ minimalista no centro -->
+    <circle cx="25" cy="20" r="8" fill="#2563eb"/>
+    <text x="25" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">R$</text>
+  </g>
+  
+  <!-- Nome da empresa -->
+  <text x="70" y="30" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="22" font-weight="600" fill="#2563eb">
+    Recorrências
+  </text>
+  
+  <!-- Tagline -->
+  <text x="70" y="45" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="9" fill="#6b7280" font-weight="400">
+    GESTÃO INTELIGENTE DE COBRANÇAS
+  </text>
+  
+  <!-- Website -->
+  <text x="70" y="60" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="10" fill="#9ca3af" font-weight="400">
+    www.recorrencias.com.br
+  </text>
+</svg>
